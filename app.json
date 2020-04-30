@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Corona infected information",
+    "slug": "Corona-information",
+    "description": "Corona infected nformation World Wide",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/covid.png",
+    "splash": {
+      "image": "./assets/icons/loading.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.test.test",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    }
+  }
+}
